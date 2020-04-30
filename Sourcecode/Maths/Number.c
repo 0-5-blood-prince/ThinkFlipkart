@@ -1,15 +1,16 @@
-<<<<<<< HEAD
 #include <stdio.h>
 #include <math.h>
+int mult(int a,int b)
+{
+ return a*b;
+}
+int sub(int a,int b)
+{
+	return b-a;
+}
 int main()
 {
 	printf("Numbers");
-}`
-=======
-#include <stdio.h>
-#include <math.h>
-int main()
-{
-  printf("NUMber");
+	printf(mult(5,6));
+	printf(sub(8,7));
 }
->>>>>>> 9ad61e601109650ec60dfe5020552e812d7022ee
