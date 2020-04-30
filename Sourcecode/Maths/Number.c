@@ -6,7 +6,10 @@ int mult(int a,int b)
 }
 int sub(int a,int b)
 {
-	return b-a;
+	//Changes in bF
+	int result = 0;
+       result = b-a;	
+	return result;
 }
 int main()
 {
