@@ -20,7 +20,8 @@ void AP(int s,int d,int n)
 {
 	for(int i=1;i<=n;i++)
 	{
-		printf("%d",s+(n-1)*d);
+		//Testing Edit
+		printf("%d\n",s+(n-1)*d);
 	}
 }
 
@@ -28,7 +29,8 @@ void list(int n)
 {
   for(int i=1;i<=n;i++)
   {
-	  printf("%d",i);
+	  //Testing edit
+	  printf("%d\n",i);
   }
 }
 void GP(int s,int d,int n)
@@ -40,7 +42,8 @@ void GP(int s,int d,int n)
 }
 int main()
 {
-	print("Sequences Program");
+	//Testing edit
+	printf("Sequences Program");
 	return 0;
 }
 
