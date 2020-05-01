@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include <math.h>
 void Fib(int n)
 {
 	int fib[n];
@@ -33,11 +34,17 @@ void list(int n)
 	  printf("%d\n",i);
   }
 }
+int power(int i,int j)
+{
+	//Testing addition
+	int res = 1;
+	for(int k=0;k<j;k++) res*=i;
+}
 void GP(int s,int d,int n)
 {	
 	for(int i=1;i<=n;i++)
 	{
-		printf("%d",s*pow(d,i-1));
+		printf("%d",s*power(d,i-1));
 	}
 }
 int main()
