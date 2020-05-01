@@ -1,4 +1,21 @@
 #include<stdio.h>
+void Fib(int n)
+{
+	int fib[n];
+	fib[0]=1;
+	fib[1]=1;
+	for(int i=0;i<n;i++)
+	{
+	  if(i<2)
+	  {
+		  printf("%d\n",fib[i]);
+	 	continue;
+	  }
+	  fib[i]=fib[i-1]+fib[i-2];
+	  printf("%d\n",fib[i]);
+	}
+}
+
 void AP(int s,int d,int n)
 {
 	for(int i=1;i<=n;i++)
