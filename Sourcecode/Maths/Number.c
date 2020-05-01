@@ -8,8 +8,8 @@ int sub(int a,int b)
 {
 	//Changes in bF
 	int result = 0;
-				       result = b-a;
-			      //Messing in Master	       
+       	//Conflict resolved in Master									
+	result = b-a;//Messing in bF	
 	return result;
 }
 int main()
