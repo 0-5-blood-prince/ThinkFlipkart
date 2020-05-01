@@ -14,6 +14,13 @@ void list(int n)
 	  printf("%d",i);
   }
 }
+void GP(int s,int d,int n)
+{	
+	for(int i=1;i<=n;i++)
+	{
+		printf("%d",s*pow(d,i-1));
+	}
+}
 int main()
 {
 	print("Sequences Program");
