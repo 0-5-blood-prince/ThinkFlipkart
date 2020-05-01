@@ -8,7 +8,8 @@ int sub(int a,int b)
 {
 	//Changes in bF
 	int result = 0;
-       result = b-a;	
+       										
+	result = b-a;//Messing in bF	
 	return result;
 }
 int main()
